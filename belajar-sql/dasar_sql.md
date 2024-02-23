@@ -7,9 +7,12 @@
 - Database (Basis Data) merupakan kumpulan data yang tersimpan dan terorganisir, sehingga mudah untuk diakses, dikelola, dan diperbarui
 - DBMS (Database Management System) adalah perangkat lunak yang dirancang untuk mengelola, menyimpan, mengakses, dan memanipulasi data dalam database
 - pada pembahasan kali ini kita akan menggunakan MySQL sebagai DBMS
-- MySQL adalah salah satu sistem manajemen basis data relasional (RDBMS) yang paling populer. RDBMS adalah jenis database yang menggunakan tabel untuk menyimpan data dan mengorganisasikannya berdasarkan hubungan yang terbentuk antara tabel-tabel tersebut.
 - MySQL pertama kali dibuat oleh Michael Widenius dan David Axmark pada tahun 1994, dan dirilis ke publik pada tahun 1995, dengan tujuan untuk membuat sebuah sistem manajemen basis data yang ringan, cepat, dan dapat diakses secara mudah.
 - untuk menggunakan MySQL, kita menggunakan bahasa SQL (Structure Query Language)
+- MySQL adalah salah satu sistem manajemen basis data relasional (RDBMS) yang paling populer. RDBMS adalah jenis database yang menggunakan tabel untuk menyimpan data dan mengorganisasikannya berdasarkan hubungan yang terbentuk antara tabel-tabel tersebut.
+- berikut merupakan penjelasan dari table, record dan row pada database MySQL:
+  
+![gambar 3](img/gambar3.png)
 
 Secara garis besar, dalam database sql terdapat dua jenis perintah :  
 1. DDL (Data Definition Language)  
@@ -74,6 +77,16 @@ BOOLEAN (TINYINT(1))
 Pastikan mysql sudah dijalankan (start)
 
 masuk ke database melalui command prompt, contoh path `E:\xampp\mysql\bin`
+
+untuk masuk ke MySQL, ketikkan perintah
+
+```bash
+mysql -u root -p
+```
+
+jika meminta password tekan enter
+
+![gambar 4](img/gambar4.png)
 
 Melihat database tersedia
 ```sql
