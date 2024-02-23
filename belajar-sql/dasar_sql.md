@@ -94,20 +94,25 @@ jika meminta password tekan enter
 
 Melihat database tersedia
 ```sql
-SHOW DATABASES
+SHOW DATABASES;
 ```
+
+## DDL (DATA DEFINITION LANGUAGE)
 
 Membuat database (membuat database toko)
 ```sql
-CREATE DATABASE db_toko
+CREATE DATABASE db_toko;
 ```
 
 Menggunakan database db_toko
 ```sql
-USE db_toko
+USE db_toko;
 ```
 
-## DDL (DATA DEFINITION LANGUAGE)
+Melihat table yang ada di database db_toko
+```sql
+SHOW TABLES;
+```
 
 ### Membuat table
 ```sql
