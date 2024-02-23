@@ -12,6 +12,8 @@
 - MySQL adalah salah satu sistem manajemen basis data relasional (RDBMS) yang paling populer. RDBMS adalah jenis database yang menggunakan tabel untuk menyimpan data dan mengorganisasikannya berdasarkan hubungan yang terbentuk antara tabel-tabel tersebut.
 - MySQL pertama kali dibuat oleh Michael Widenius dan David Axmark pada tahun 1994, dan dirilis ke publik pada tahun 1995, dengan tujuan untuk membuat sebuah sistem manajemen basis data yang ringan, cepat, dan dapat diakses secara mudah.
 - untuk menggunakan MySQL, kita menggunakan bahasa SQL (Structure Query Language)
+- penulisan sintaks query di MySQL bersifat case insensitive (huruf besar dan kecil dianggap sama atau tidak dibedakan), dan diakhiri dengan titik koma
+- di dalam MySQL terdapat table, field/column, row/baris
 - berikut merupakan penjelasan dari table, record dan row pada database MySQL:
   
 ![gambar 3](img/gambar3.png)
@@ -98,6 +100,11 @@ SHOW DATABASES
 Membuat database (membuat database toko)
 ```sql
 CREATE DATABASE db_toko
+```
+
+Menggunakan database db_toko
+```sql
+USE db_toko
 ```
 
 ## DDL (DATA DEFINITION LANGUAGE)
