@@ -199,12 +199,13 @@ kondisi: yang memiliki id 1,
 UPDATE produk SET harga = 3500 WHERE id = 1;
 ```
 
-update data produk ubah harga=4500 dan nama="Indomie Bawang Update" berdasarkan id 1
+update data produk ubah harga=4500 dan nama="Indomie Bawang Update" yang memiliki id 1
 ```sql
 UPDATE produk SET harga = 4500, nama = "Indomie Bawang Update" WHERE id = 1;
 ```
 
 ### DELETE DATA produk
+menghapus data produk yang memiliki id = 1
 ```sql
 DELETE FROM produk WHERE id = 1;
 ```
