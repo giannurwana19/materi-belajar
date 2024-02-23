@@ -119,6 +119,11 @@ Melihat table yang ada di database db_toko
 SHOW TABLES;
 ```
 
+Melihat struktur table produk
+```sql
+DESC produk;
+```
+
 Misalnya kita mempunyai data produk seperti ini, tentukan spesifikasi table nya
 
 ![gambar 5](img/gambar5.png)
@@ -219,7 +224,7 @@ SELECT nama, stok from produk
 
 menampilkan produk yang memiliki id 1
 ```sql
-SELECT * FROM produk WHERE id = 1
+SELECT * FROM produk WHERE id = 2
 ```
 
 menampilkan produk yang harganya kurang dari 10_000
@@ -234,12 +239,12 @@ SELECT * FROM produk where stok > 10
 
 menampilkan produk yang harganya kurang dari 10_000 DAN stok lebih dari 10
 ```sql
-SELECT * FROM produk where harga < 10_000 AND stok > 10
+SELECT * FROM produk where harga < 10000 AND stok > 10
 ```
 
 menampilkan produk yang harganya kurang dari 10_000 ATAU stok lebih dari 10
 ```sql
-SELECT * FROM produk where harga < 10_000 OR stok > 10
+SELECT * FROM produk where harga < 10000 OR stok > 10
 ```
 
 menampilkan produk yang nama nya mengandung kata mie
