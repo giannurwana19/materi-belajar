@@ -14,6 +14,7 @@
 - untuk menggunakan MySQL, kita menggunakan bahasa SQL (Structure Query Language)
 - penulisan sintaks query di MySQL bersifat case insensitive (huruf besar dan kecil dianggap sama atau tidak dibedakan), dan diakhiri dengan titik koma
 - di dalam MySQL terdapat table, field/column, row/baris
+- di dalam satu table, harus ada kunci utama (Primary Key) dan bersifat unik (tidak boleh sama)
 - berikut merupakan penjelasan dari table, record dan row pada database MySQL:
   
 ![gambar 3](img/gambar3.png)
@@ -172,6 +173,15 @@ INSERT INTO produk (nama, harga, stok) VALUES
 | Iphone 13 Pro MAx | 12000000 |   20 |
 | Samsung S23 5G    | 10000000 |   12 |
 | Macbook Pro M1    | 21000000 |   18 |
+
+```sql
+INSERT INTO produk (nama, harga, stok) VALUES
+  ('Smart TV LG', 8000000, 15),
+  ('Laptop ASUS ROG', 15000000, 10),
+  ('Iphone 13 Pro Max', 12000000, 20),
+  ('Samsung S23 5G', 10000000, 12),
+  ('Macbook Pro M1', 21000000, 18);
+```
 
 ### UPDATE DATA produk
 
