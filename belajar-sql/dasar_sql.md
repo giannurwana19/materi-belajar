@@ -2,7 +2,9 @@
 
 ![gambar 1](img/gambar1.png)
 
-##### By: Gian Nurwana
+#### By: Gian Nurwana
+
+-------------------------
 
 ## PENGANTAR MySQL
 
@@ -74,6 +76,8 @@ DATETIME:
 BOOLEAN (TINYINT(1))
 - Menyimpan nilai boolean dengan 0 untuk false dan 1 untuk true.
 
+---------------
+
 ### MENJALANKAN MYSQL
 
 ![gambar 2](img/gambar2.png)
@@ -115,7 +119,11 @@ Melihat table yang ada di database db_toko
 SHOW TABLES;
 ```
 
-### Membuat table
+Misalnya kita mempunyai data produk seperti ini, tentukan spesifikasi table nya
+
+![gambar 5](img/gambar5.png)
+
+### Membuat table produk
 ```sql
 CREATE TABLE produk (
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
