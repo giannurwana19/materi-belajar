@@ -262,7 +262,12 @@ menghitung total data di table produk
 SELECT COUNT(*) FROM produk
 ```
 
-menghitung total stok semua barang di table produk
+kita juga bisa menggunakan alias total
+```sql
+SELECT COUNT(*) AS total FROM produk
+```
+
+menghitung total jumlah stok semua barang di table produk
 ```sql
 SELECT SUM(*) FROM produk
 ```
